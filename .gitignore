@@ -1,25 +1,46 @@
+# -----------------------------
 # VS Code
+# -----------------------------
 .vscode/
 
+# -----------------------------
+# Python cache
+# -----------------------------
+__pycache__/
+*.pyc
+
+# -----------------------------
 # Dataset folders
+# -----------------------------
 data/
 data1/
 dynamic_data/
-new_dynamic_data_words/
-new_keypoint_data_words/
-newword_dynamic_data_words/
-newwords_keypoint_data_words/
+dynamic_letters_data/
+dynamic_letters_keypoint/
+dynamic_words_data/
+dynamic_words_keypoint/
 accuracy/
 
-# Models
+# -----------------------------
+# Model files
+# -----------------------------
 *.h5
 *.p
 *.pickle
 
-# Python cache
-__pycache__/
-*.pyc
+# -----------------------------
+# Generated files
+# -----------------------------
+*.log
 
-# System
+# -----------------------------
+# System files
+# -----------------------------
 .DS_Store
 Thumbs.db
+
+# -----------------------------
+# Environment
+# -----------------------------
+venv/
+.env
