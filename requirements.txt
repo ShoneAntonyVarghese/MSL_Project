@@ -1,0 +1,17 @@
+# Core Libraries
+numpy>=1.21,<2.0
+
+# Computer Vision
+opencv-python>=4.5
+
+# Hand Tracking
+mediapipe==0.10.9
+
+# Machine Learning (Phase 1)
+scikit-learn>=1.0
+
+# Deep Learning (Phase 2)
+tensorflow>=2.10
+
+# Model Saving/Loading
+h5py>=3.7

@@ -1,0 +1,25 @@
+# VS Code
+.vscode/
+
+# Dataset folders
+data/
+data1/
+dynamic_data/
+new_dynamic_data_words/
+new_keypoint_data_words/
+newword_dynamic_data_words/
+newwords_keypoint_data_words/
+accuracy/
+
+# Models
+*.h5
+*.p
+*.pickle
+
+# Python cache
+__pycache__/
+*.pyc
+
+# System
+.DS_Store
+Thumbs.db
